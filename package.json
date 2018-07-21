@@ -1,0 +1,41 @@
+{
+	"name": "webpack_demo",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"server": "webpack-dev-server --open",
+		"start": "webpack",
+		"dev": "webpack --mode development",
+		"a": "set NODE_ENV=production && webpack --config ./webpack.production.config.js --progress",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"ps": "名字可以随便起",
+		"ps1": "webpack --config ./build/webpack.dev.conf.js,config参数指定配置文件"
+	},
+	"author": "li",
+	"license": "ISC",
+	"devDependencies": {
+		"autoprefixer": "^9.0.0",
+		"babel-core": "^6.26.3",
+		"babel-loader": "^7.1.5",
+		"babel-plugin-react-transform": "^3.0.0",
+		"babel-preset-env": "^1.7.0",
+		"babel-preset-react": "^6.24.1",
+		"clean-webpack-plugin": "^0.1.19",
+		"css-loader": "^1.0.0",
+		"extract-text-webpack-plugin": "^4.0.0-beta.0",
+		"file-loader": "^1.1.11",
+		"html-loader": "^0.5.5",
+		"html-webpack-plugin": "^3.2.0",
+		"postcss-loader": "^2.1.6",
+		"react-transform-hmr": "^1.0.4",
+		"style-loader": "^0.21.0",
+		"webpack": "^4.16.1",
+		"webpack-cli": "^3.1.0",
+		"webpack-dev-server": "^3.1.4"
+	},
+	"dependencies": {
+		"react": "^16.4.1",
+		"react-dom": "^16.4.1"
+	}
+}
