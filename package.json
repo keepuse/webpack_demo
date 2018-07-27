@@ -7,7 +7,7 @@
 		"server": "webpack-dev-server --open",
 		"start": "webpack",
 		"dev": "webpack --mode development",
-		"a": "set NODE_ENV=production && webpack --config ./webpack.production.config.js --progress",
+		"pro": "set NODE_ENV=production && webpack --config ./webpack.production.config.js --progress",
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"ps": "名字可以随便起",
 		"ps1": "webpack --config ./build/webpack.dev.conf.js,config参数指定配置文件"
