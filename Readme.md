@@ -2,13 +2,13 @@
 
 `npm install`
 
-**打开webpack server**
-
-`npm run server`
-
 **正常打包**
 
 `npm start`
+
+**打开webpack server**
+
+`npm run server`
 
 **production模式**
 
